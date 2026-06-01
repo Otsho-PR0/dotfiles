@@ -1,0 +1,10 @@
+[core]
+	editor = nvim
+	autocrlf = true
+[difftool "nvim"]
+	cmd = "nvim -d $LOCAL $REMOTE"
+[user]
+	email = otsho-pr0@proton.me
+	name = Otsho-PR0
+[pull]
+	rebase = true
