@@ -8,8 +8,10 @@ else
   export GPG_TTY="$TTY"
 fi
 
-PATH="$HOME/.go/bin:$PATH"
-PATH="$HOME/.local/bin:$PATH"
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+PATH="$$HOME/.local/bin:HOME/.go/bin:$PATH"
 
 export EDITOR=nvim
 
